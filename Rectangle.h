@@ -8,6 +8,10 @@ class Rectangle {
       Rectangle(); // Default Constructor
       Rectangle(int l, int w); // Overloaded Constructor
       ~Rectangle(); // Destructor
-      int calcArea();
-      void display();
+       void setLength(int l);
+       int getLength();
+       void setWidth(int w);
+       int getWidth();
+       int calcArea();
+       void display();
 };
